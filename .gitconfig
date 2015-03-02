@@ -1,0 +1,9 @@
+[user]
+	email = johannes@lauinger-it.de
+	name = Johannes Lauinger
+[push]
+	default = simple
+[http]
+	sslverify = true
+[core]
+	excludesfile = ~/.global_gitignore

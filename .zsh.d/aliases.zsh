@@ -1,0 +1,5 @@
+alias c='clear'
+alias e='exit'
+alias slt='/usr/bin/subl'
+alias empty-trash='rm -rf ~/.local/share/Trash/files'
+alias fuck='sudo `history | tail -n 1 | cut -d \  -f 3-`'

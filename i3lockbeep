@@ -1,0 +1,15 @@
+#!/bin/bash
+
+ALARM_FILE=/dev/urandom
+DURATION=1 # s
+
+who | grep tty
+if [[ $? -eq 0 ]]; then
+  amixer -q set Master 85% unmute
+  aplay -d $DURATION < $ALARM_FILE &
+fi
+
+/usr/bin/i3lock -c fefe00
+
+sleep $DURATION
+amixer -q set Master 0% mute

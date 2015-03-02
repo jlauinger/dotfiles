@@ -1,0 +1,6 @@
+alias passwordgen='~/.zsh.scripts/passwordgen.sh'
+alias udo='~/.zsh.scripts/udo.sh'
+alias sven='~/.zsh.scripts/sven.sh'
+alias hostnamegen='~/.zsh.scripts/hostnamegen.sh'
+alias colortest='~/.zsh.scripts/colortest.sh'
+alias hal='~/.zsh.scripts/hal.sh'
