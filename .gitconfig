@@ -1,9 +1,10 @@
 [user]
-	email = johannes@lauinger-it.de
-	name = Johannes Lauinger
+  email = johannes@lauinger-it.de
+  name = Johannes Lauinger
+  signingkey = 38d59e4a
 [push]
-	default = simple
+  default = simple
 [http]
-	sslverify = true
+  sslverify = true
 [core]
-	excludesfile = ~/.global_gitignore
+  excludesfile = ~/.global_gitignore
